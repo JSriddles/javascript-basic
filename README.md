@@ -12,9 +12,9 @@ sum(5)(6);      // should return 11
 ```
 
 ### level medium
-1. See the following `html` page
-    - What will be printed to the console if Button 1 is clicked, and why?
-    - How would you solve this issue?
+1. See the following `html` page. clicking on button x should log: `button x clicked`.
+    - what 2 issues can you find in this page?
+    - How would you solve this issues?
 ```
 <!DOCTYPE html>
 <html>
@@ -27,7 +27,7 @@ sum(5)(6);      // should return 11
     <button>Button 3</button>
     <script>
         const nodes = document.querySelectorAll('button');
-        for (var i = 0; i < nodes.length ; i++ ) {
+        for (var i = 1; i < nodes.length ; i++ ) {
             nodes[i].addEventListener('click' , function() {
                 console.log('button ' + i +  ' clicked');
             });
