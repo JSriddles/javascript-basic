@@ -37,7 +37,8 @@ sum(5)(6);      // should return 11
 </html>
 ```
 
-2. what should we assign to `level` so this code will return `true`?
+### level hard - 1
+what should we assign to `level` so this code will return `true`?
 ```
 const levels = {
   'easy': 1,
@@ -68,8 +69,8 @@ function foo() {
 }
 ```
 
-### level hard
-1. Implement a function `math` which accept up to 3 parameters:
+### level hard - 2
+Implement a function `math` which accept up to 3 parameters:
 ```
 function math(a, b, type) {
     // TODO: implement
