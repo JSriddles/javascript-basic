@@ -4,14 +4,14 @@ Basic javascript riddles
 ## answers should be in native javascript
 No typescript/jquery/etc. required
 
-### level easy
+### 1-level easy
 1. Implement a function `sum` which can be used in 2 ways:
 ```
 sum(5,6);       // should return 11
 sum(5)(6);      // should return 11
 ```
 
-### level medium
+### 2-level medium
 1. See the following `html` page. clicking on button x should log: `button x clicked`.
     - what 2 issues can you find in this page?
     - How would you solve this issues?
@@ -37,7 +37,7 @@ sum(5)(6);      // should return 11
 </html>
 ```
 
-### level hard - 1
+### 3-level hard
 what should we assign to `level` so this code will return `true`?
 ```
 const levels = {
@@ -69,7 +69,7 @@ function foo() {
 }
 ```
 
-### level hard - 2
+### 4-level hard
 Implement a function `math` which accept up to 3 parameters:
 ```
 function math(a, b, type) {
